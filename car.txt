@@ -1,29 +1,31 @@
 CARS
 
-id
-marca
-modello
-versione
-anno
-cilindrata
-potenza
-alimentazione
-consumo urbano
-consumo exstraurbano
-consumo combinato
-classe di emissione
-numero di porte
-posti
-cambio
-marce
-trazione
-immatricolazione
-peso
-dimensioni
-chilometri percorsi
-ultima revisione
-prezzo
-climatizzatore
-autoradio
-chiusura centralizzata
-alza cristalli elettrici
+id - INT 
+marca - VARCHAR(50)
+modello - VARCHAR(50)
+versione - VARCHAR(50)
+anno - YEAR
+cilindrata_cc - SMALLINT
+potenza_cv - SMALLINT
+alimentazione - VARCHAR(50)
+consumo urbano_Km/h - VARCHAR(10)
+consumo exstraurbano_Km/h - VARCHAR(10)
+consumo combinato_Km/h - VARCHAR(10)
+classe di emissione - VARCHAR(15)
+numero di porte - TINYINT
+posti - TINYINT
+cambio - VARCHAR(15)
+marce - TINYINT
+trazione - VARCHAR(15)
+immatricolazione - YEAR
+peso_Kg - SMALLINT
+lunghezza_cm - SMALLINT
+larghezza_cm - SMALLINT
+altezza_cm - SMALLINT
+chilometri percorsi_Km - MEDIUMINT
+ultima revisione - DATE
+prezzo - MEDIUMINT
+climatizzatore - TINYINT
+autoradio - TINYINT
+chiusura centralizzata - TINYINT
+alza cristalli elettrici - TINYINT
