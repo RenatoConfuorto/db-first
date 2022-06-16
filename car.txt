@@ -1,0 +1,29 @@
+CARS
+
+id
+marca
+modello
+versione
+anno
+cilindrata
+potenza
+alimentazione
+consumo urbano
+consumo exstraurbano
+consumo combinato
+classe di emissione
+numero di porte
+posti
+cambio
+marce
+trazione
+immatricolazione
+peso
+dimensioni
+chilometri percorsi
+ultima revisione
+prezzo
+climatizzatore
+autoradio
+chiusura centralizzata
+alza cristalli elettrici
